@@ -1,0 +1,39 @@
+<Extensions>
+  <Version>1.10</Version>
+  <Panel>
+    <Order>4</Order>
+    <PanelId>p_presets</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Camera</Icon>
+    <Color>#1D805F</Color>
+    <Name>Presets</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Presets</Name>
+      <Row>
+        <Name>Select Preset</Name>
+        <Widget>
+          <WidgetId>w_presets</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=3</Options>
+          <ValueSpace>
+            <Value>
+              <Key>Unu</Key>
+              <Name>Unu</Name>
+            </Value>
+            <Value>
+              <Key>Doi</Key>
+              <Name>Doi</Name>
+            </Value>
+            <Value>
+              <Key>Trei</Key>
+              <Name>Trei</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>

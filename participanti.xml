@@ -1,0 +1,44 @@
+<Extensions>
+  <Version>1.10</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>participanti</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Helpdesk</Icon>
+    <Color>#148579</Color>
+    <Name>Lista Participanti</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Lista participanti</Name>
+      <Row>
+        <Name>PageUp / PageDown</Name>
+        <Widget>
+          <WidgetId>pages</WidgetId>
+          <Type>Spinner</Type>
+          <Options>size=2;style=vertical</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name/>
+        <Widget>
+          <WidgetId>dismiss</WidgetId>
+          <Name>Dismiss</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_4</WidgetId>
+          <Type>Spacer</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_3</WidgetId>
+          <Type>Spacer</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>

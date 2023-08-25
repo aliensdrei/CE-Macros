@@ -1,0 +1,13 @@
+<Extensions>
+  <Version>1.10</Version>
+  <Panel>
+    <Order>3</Order>
+    <PanelId>p_preset1</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Camera</Icon>
+    <Color>#1170CF</Color>
+    <Name>Preset Unu</Name>
+    <ActivityType>Custom</ActivityType>
+  </Panel>
+</Extensions>
